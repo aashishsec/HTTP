@@ -1,0 +1,1 @@
+#  curl "http://ptl-805f7c69-387e7c10.libcurl.so/pentesterlab/../pentesterlab" --path-as-is

